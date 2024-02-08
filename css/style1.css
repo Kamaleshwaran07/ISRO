@@ -1,0 +1,57 @@
+.list {
+  display: flex;
+  justify-content: center;
+  margin-left: 11em;
+  margin-bottom: 4em;
+}
+body {
+  overflow-x: hidden;
+
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text-center {
+  margin: 1em;
+}
+.list-item {
+  font-weight: 500;
+
+  margin: 10px;
+  padding: 2px;
+
+  color: #131616;
+}
+.nav-link {
+  font-size: 1.5em;
+  color: #f7e1d7;
+}
+.navbar-brand {
+  font-size: 1.5em;
+  color: #f7e1d7;
+}
+@media screen and (max-width: 1025px) {
+  .row {
+    margin-left: 4em;
+  }
+}
+@media screen and (max-width: 769px) {
+  .navbar {
+    width: 100%;
+  }
+  .list {
+    margin-left: 2em;
+    margin-bottom: 4em;
+  }
+}
+@media screen and (max-width: 426px) {
+  .navbar {
+    width: 100%;
+  }
+  .list {
+    display: block;
+    margin-left: 1em;
+    width: 100%;
+    margin-bottom: 4em;
+  }
+}
